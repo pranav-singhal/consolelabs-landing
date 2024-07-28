@@ -1,15 +1,15 @@
+import { Button } from "@/components/ui/button";
 import Link from "next/link";
 
-import { Button } from "@/components/ui/button";
 
 export function CtaSection() {
   return (
     <section className="container">
       <div className="flex flex-col items-center gap-6 rounded-xl bg-primary px-6 py-24 sm:gap-10">
-        <h2 className="font-heading text-3xl font-semibold sm:text-4xl max-w-xl sm:leading-tight text-center text-primary-foreground">
+        <h2 className="max-w-xl text-center font-heading text-3xl font-semibold text-primary-foreground sm:text-4xl sm:leading-tight">
           Talk to us Today
         </h2>
-        <p className="max-w-xl text-lg text-primary-foreground/80 text-center">
+        <p className="max-w-xl text-center text-lg text-primary-foreground/80">
           Schedule a free consultation where we will help you figure out the right solutions for you
         </p>
         <Button
@@ -18,7 +18,7 @@ export function CtaSection() {
           variant="outline"
           className="h-12 cursor-pointer border-border text-base sm:h-14 sm:px-10"
         >
-          <Link href="https://calendly.com/pranavsinghal96/1-on-1">Get Started</Link>
+          <Link target="_blank" href="https://calendly.com/pranavsinghal96/1-on-1">Get Started</Link>
         </Button>
       </div>
     </section>

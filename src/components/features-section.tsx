@@ -1,5 +1,4 @@
 import { Check } from "lucide-react";
-import Image from "next/image";
 
 
 export function FeaturesSection() {
@@ -40,13 +39,27 @@ export function FeaturesSection() {
         
       </div>
       <div className="relative flex-1">
-        <Image
-          alt="SaaS Dashboard"
-          src="/images/dashboard.png"
-          width={713}
-          height={497.7}
+      <video 
+      width={713}
+          height={497.7} 
+          preload="none" 
+          loop 
+          autoPlay
+          muted
           className="rounded-xl border border-border shadow-lg"
-        />
+          >
+      <source src="/videos/brahma-demo.mp4" type="video/mp4" />
+      <track
+        src="/videos/brahma-demo.mp4"
+        kind="subtitles"
+        srcLang="en"
+        
+        
+        label="English"
+      />
+      Your browser does not support the video tag.
+    </video>
+        
       </div>
     </section>
   );

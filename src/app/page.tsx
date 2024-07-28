@@ -1,11 +1,10 @@
+import { CtaSection } from "@/components/cta-section";
+import { Faq } from "@/components/faq";
+import { Features } from "@/components/features";
+import { FeaturesSection } from "@/components/features-section";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Technologies } from "@/components/technologies";
-import { FeaturesSection } from "@/components/features-section";
-import { FeatureWithImageLeft } from "@/components/feature-image-left";
-import { Features } from "@/components/features";
-import { Faq } from "@/components/faq";
-import { CtaSection } from "@/components/cta-section";
 
 export default function Home() {
   return (
@@ -14,7 +13,7 @@ export default function Home() {
       <Hero />
       <Technologies />
       <FeaturesSection />
-      <FeatureWithImageLeft />
+      {/* <FeatureWithImageLeft /> */}
       <Features />
       <Faq />
       <CtaSection />

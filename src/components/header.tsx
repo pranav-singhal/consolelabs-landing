@@ -19,7 +19,7 @@ export function Header() {
       <div className="flex items-center gap-10">
         <div className="hidden items-center gap-2 md:flex">
           <Button asChild>
-            <Link href="https://calendly.com/pranavsinghal96/1-on-1" className="cursor-pointer">
+            <Link target="_blank" href="https://calendly.com/pranavsinghal96/1-on-1" className="cursor-pointer">
               Get in Touch
             </Link>
           </Button>

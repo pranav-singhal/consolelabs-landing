@@ -1,4 +1,5 @@
 import { CtaSection } from "@/components/cta-section";
+import { DragonflyFeature } from "@/components/dragonfly-feature";
 import { Faq } from "@/components/faq";
 import { Features } from "@/components/features";
 import { FeaturesSection } from "@/components/features-section";
@@ -13,8 +14,10 @@ export default function Home() {
       <Hero />
       <Technologies />
       <FeaturesSection />
+      <DragonflyFeature />
       {/* <FeatureWithImageLeft /> */}
       <Features />
+
       <Faq />
       <CtaSection />
     </>

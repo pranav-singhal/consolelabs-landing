@@ -6,6 +6,7 @@ import { FeaturesSection } from "@/components/features-section";
 import { Header } from "@/components/header";
 import { Hero } from "@/components/hero";
 import { Technologies } from "@/components/technologies";
+import { PastProjects } from "../components/past-projects";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Technologies />
       <FeaturesSection />
       <DragonflyFeature />
+      <PastProjects />
       {/* <FeatureWithImageLeft /> */}
       <Features />
 
